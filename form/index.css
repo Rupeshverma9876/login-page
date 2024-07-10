@@ -1,0 +1,106 @@
+
+
+.container{
+    width: 100%;
+    height: 850px;
+    background-color: #b386fa;
+  
+   
+
+}
+.form{
+    width: 30% ;
+    height: 80%;
+    position: absolute;
+    border: 2px solid black;
+    justify-content: center;
+    background-color: rgb(227, 230, 234);
+   text-align: center;
+   margin-left: 520px;
+   margin-top: 70px;
+   border-radius: 2px;
+}
+h1{
+    font-size: 35px;
+    margin-bottom: 80px;
+    color: #0b090e;
+}
+h1:hover{
+    color: #f39344;
+}
+.form::after{
+    content: '';
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    background: #0a080d;;
+    position: absolute;
+    top: 68px;
+    color: #b386fa;
+}
+.input-field{
+    margin: 20px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 65px;
+    
+
+
+}
+input{
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background: transparent;
+}
+form.p{
+    text-align: center;
+    font-size: 19px;
+   
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.btn-field{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    
+    
+
+}
+.btn-field:hover{
+    color: chocolate;
+}
+.btn-field button{
+  
+    cursor: pointer;
+    background: #5d02ee;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    transition: 0.5s;
+    
+}
+.btn-field button:hover{
+    color: rgb(246, 247, 244);
+}
+.btn-field button.disable{
+    color: #555;
+    background-color: #eaeaea;
+}
+
+
+
+
+
+
+
